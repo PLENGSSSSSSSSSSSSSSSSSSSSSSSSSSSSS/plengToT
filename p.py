@@ -24,6 +24,7 @@ def button_event():
     answer_text.set(answer)
     print(user_input, answer)
  
+
  
 button = customtkinter.CTkButton(app, text="กดฉันเลย", command = button_event)
 button.pack(pady=(20, 0))
